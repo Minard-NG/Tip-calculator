@@ -29,5 +29,20 @@ body{
     justify-content: center;
 
 }
+label{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.15rem;
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $grayishCyan1;
+    .error{
+        font-size: 0.5rem;
+        font-weight: 300;
+        color: red;
+        letter-spacing: 1px;
+    }
+}
 
 

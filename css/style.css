@@ -30,6 +30,27 @@ body {
           justify-content: center;
 }
 
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 0.15rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #5e7a7d;
+}
+
+label .error {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: red;
+  letter-spacing: 1px;
+}
+
 header {
   text-align: center;
   padding: calc(1.875rem + 0.7vw) 0px;
@@ -65,16 +86,10 @@ main .input__sect-bill {
   margin-bottom: 2.5rem;
 }
 
-main .input__sect-bill label {
-  width: 100%;
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: #5e7a7d;
-}
-
 main .input__sect-bill input {
   width: 100%;
   font-size: 1.5rem;
+  font-weight: 700;
   padding: 0.875rem 1rem;
   padding-left: 2.5rem;
   background-color: #f4fafa;
@@ -88,7 +103,79 @@ main .input__sect-bill input:focus {
   outline: 2px solid #26c0ab;
 }
 
-main .input__sect-bill svg {
+main .input__sect-bill img {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+}
+
+main .input__sect-tip {
+  margin-bottom: 2.5rem;
+}
+
+main .input__sect-tip .tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+main .input__sect-tip .tips input[type="button"] {
+  border: none;
+  background-color: #00494d;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 7.5rem;
+  height: 3.25rem;
+  border-radius: 5px;
+}
+
+main .input__sect-tip .tips input[type="text"] {
+  width: 7.5rem;
+  font-size: 1.5rem;
+  padding: 0.875rem 0.2rem;
+  background-color: #f4fafa;
+  color: #00494d;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+main .input__sect-tip .tips input[type="text"]:focus {
+  outline: 2px solid #26c0ab;
+}
+
+main .input__sect-no {
+  position: relative;
+}
+
+main .input__sect-no input {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.875rem 1rem;
+  padding-left: 2.5rem;
+  background-color: #f4fafa;
+  color: #00494d;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+main .input__sect-no input:focus {
+  outline: 2px solid #26c0ab;
+}
+
+main .input__sect-no img {
   position: absolute;
   left: 20px;
   bottom: 18px;
@@ -103,8 +190,8 @@ main .output__sect {
 @media only screen and (min-width: 930px) {
   main {
     -ms-grid-rows: 1fr;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template: 1fr / 1fr 1fr;
+    -ms-grid-columns: 1.2fr 1fr;
+        grid-template: 1fr / 1.2fr 1fr;
     height: 485px;
     border-radius: 20px;
   }
