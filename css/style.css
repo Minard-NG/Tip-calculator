@@ -49,6 +49,9 @@ label .error {
   font-weight: 400;
   color: red;
   letter-spacing: 0.3px;
+  opacity: 0;
+  -webkit-transition: all 20ms ease-in-out;
+  transition: all 20ms ease-in-out;
 }
 
 header {
