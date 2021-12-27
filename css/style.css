@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #c5e4e7;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: -webkit-min-content -webkit-max-content -webkit-min-content;
+  -ms-grid-rows: min-content max-content min-content;
+  -ms-grid-columns: 1fr;
+      grid-template: -webkit-min-content -webkit-max-content min-content/ 1fr;
+      grid-template: min-content max-content min-content/ 1fr;
+  height: 100vh;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header {
+  text-align: center;
+  padding: calc(1.875rem + 0.7vw) 0px;
+}
+
+main {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 100%;
+  max-width: 939px;
+  padding: calc(1.25rem + 3vw);
+  height: 80vh;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    height: 50vh;
+    border-radius: 20px;
+  }
+}
+
+.attribution {
+  padding: 10px 0px;
+  color: #7f9c9f;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #5e7a7d;
+}
+/*# sourceMappingURL=style.css.map */

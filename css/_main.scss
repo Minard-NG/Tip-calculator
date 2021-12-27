@@ -1,0 +1,18 @@
+main {
+  justify-self: center;
+  width: 100%;
+  max-width: 939px;
+  padding: calc(1.25rem + 3vw);
+  height: 80vh;
+  background-color: $white;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    height: 50vh;
+    border-radius: 20px;
+  }
+}

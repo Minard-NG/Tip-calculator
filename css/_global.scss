@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+
+
+//variables
+$elementBg : hsl(183, 100%, 15%);
+$strongCyan: hsl(172, 67%, 45%);
+$grayishCyan1: hsl(186, 14%, 43%);
+$grayishCyan2: hsl(184, 14%, 56%);
+$lightCyan1: hsl(185, 41%, 84%);
+$lightCyan2: hsl(189, 41%, 97%);
+$white: hsl(0, 0%, 100%);
+
+body{
+    background-color: $lightCyan1;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template: min-content max-content min-content/ 1fr;
+    height: 100vh;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
