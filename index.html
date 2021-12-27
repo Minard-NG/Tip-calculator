@@ -43,7 +43,7 @@
             <input type="button" value="15%" />
             <input type="button" value="25%" />
             <input type="button" value="50%" />
-            <input type="text" placeholder="Custom" />
+            <input type="text" id="customTip" placeholder="Custom" />
           </div>
         </div>
 
@@ -59,9 +59,9 @@
       </div>
 
       <div class="output__sect">
-        <p><span class="title">Tip Amount</span ><span class="subtitle">  / person</span> <span class="content">$0.00</span></p>
-        <p><span class="title">Total</span ><span class="subtitle">  / person</span> <span class="content">$0.00</span></p>
-        <button disabled>RESET</button>
+        <p><span class="title">Tip Amount</span ><span class="subtitle">  / person</span> <span id="tipAmount" class="content">$0.00</span></p>
+        <p><span class="title">Total</span ><span class="subtitle">  / person</span> <span id="total" class="content">$0.00</span></p>
+        <button id="resetBtn" disabled>RESET</button>
       </div>
     </main>
     <footer class="attribution">
