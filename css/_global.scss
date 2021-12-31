@@ -35,6 +35,7 @@ label{
     justify-content: space-between;
     padding-bottom: 0.15rem;
     width: 100%;
+    line-height: 1.25;
     font-size: 0.875rem;
     font-weight: 700;
     color: $grayishCyan1;
@@ -46,6 +47,10 @@ label{
         opacity: 0;
         transition: all 20ms ease-in-out;
     }
+}
+
+p{
+    line-height: 1.25;
 }
 
 
