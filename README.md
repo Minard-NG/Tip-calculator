@@ -51,7 +51,7 @@ Users should be able to:
 ### What I Learnt
 
 - Reinforced my knowledge of CSS3 grids and page layouts.
-- Developed a crude implelementation of the typical radio button behaviour. 
+- Developed a crude implementation of the typical radio button behaviour. 
 - Practiced more functional programming
 
 
